@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+.block-1 {
+    width: 691px;
+    height: 354px;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.text {
+    position: absolute;
+    font-size: 50px;
+    font-family: "Russo One", serif;
+    color: white;
+    bottom: 30px;
+    left: 30px;
+}
+
+.block-2 {
+    width: 357px;
+    height: 264px;
+    border: 1px solid red;
+    background-image: url('./img/sofa.png');
+    background-size: cover;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block-2__sale {
+    background-color: rgb(51, 58, 154);
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+}
+
+.block-2__desc {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(51, 58, 154);
+    color: white;
+}
+
+.block-3 {
+    position: relative;
+}
+
+.image-3 {
+    width: 880px;
+    height: 223px;
+}
+
+.background-3 {
+    width: 880px;
+    height: 223px;
+    background-color: rgba(21, 34, 66, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0;
+
+}
+
+.play {
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.product {
+    width: 235px;
+    height: 235px;
+    position: relative;
+}
+
+.product_img-wrap {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.product_img {
+    height: 100%;
+}
+
+.product_cart {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    top: 0px;
+    right: 0px;
+}
+
+.product_cart-img {
+    height: 100%;
+    margin: 50%;
+    position: absolute;
+    transform: translate(-50%);
+}
